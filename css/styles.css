@@ -925,11 +925,8 @@ ul {
   color: var(--lightslate);
 }
 
-.form-label-checkbox:checked {
+.checkbox:checked + .label-span {
   background-color: var(--ocean);
-}
-
-.form-label-checkbox:checked + .lebel-span {
   border: none;
   fill: var(--cloud);
 }
