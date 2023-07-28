@@ -916,7 +916,7 @@ ul {
   color: var(--lightslate);
 }
 
-.checkbox:checked + .label-span {
+.checkbox:checked + .form-label-checkbox .label-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
