@@ -909,15 +909,6 @@ ul {
   margin-bottom: 24px;
 }
 
-.checkbox {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  stroke-width: 1px;
-  stroke: var(--navyblue);
-  vertical-align: middle;
-}
-
 .form-label-checkbox {
   font-size: 12px;
   line-height: 1.17;
