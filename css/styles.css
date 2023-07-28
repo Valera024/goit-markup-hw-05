@@ -684,7 +684,7 @@ ul {
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--white);
-  filter: drop-shadow(0px 4px 4px 0px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
   color: var(--white);
   outline: none;
@@ -715,7 +715,7 @@ ul {
 }
 
 .subscribe-btn {
-  max-width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   padding: 8px 24px;
@@ -903,6 +903,10 @@ ul {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+
+.container-textarea {
+  margin-bottom: 24px;
 }
 
 .checkbox {
